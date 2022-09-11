@@ -1,7 +1,7 @@
 
 
 [rewrite_local]
-http:\/\/mapi\.cqdingyan\.com\/report\/index url script-response-body https://raw.githubusercontent.com/asdasd431/ceshi/main/quying.js
+http:\/\/mapi\.cqdingyan\.com\/report url script-response-body https://raw.githubusercontent.com/asdasd431/ceshi/main/quying.js
 [mitm] 
 hostname = mapi.cqdingyan.com
 
@@ -15,7 +15,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/report/index';
+const vip = '/index';
 
 if (url.indexOf(vip) != -1) {
     
