@@ -19,7 +19,7 @@ const vip = '/index';
 
 if (url.indexOf(vip) != -1) {
     
-    obj.is_vip = "1";
+    obj.is_vip = 1;
     
     body = JSON.stringify(obj);
 }
