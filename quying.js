@@ -1,7 +1,7 @@
 
 
 [rewrite_local]
-http:\/\/mapi\.cqdingyan\.com\/report\/index url script-response-body 自己命名.js
+http:\/\/mapi\.cqdingyan\.com\/report\/index url script-response-body https://raw.githubusercontent.com/asdasd431/ceshi/main/quying.js
 [mitm] 
 hostname = mapi.cqdingyan.com
 
