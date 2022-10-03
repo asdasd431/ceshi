@@ -14,11 +14,11 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/index';
+const vip = '/report/index';
 
 if (url.indexOf(vip) != -1) {
     
-    obj.is_vip = "3";
+    obj.is_vip = "2";
     
     body = JSON.stringify(obj);
 }
