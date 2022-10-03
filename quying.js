@@ -18,7 +18,7 @@ const vip = '/report/index';
 
 if (url.indexOf(vip) != -1) {
     
-    obj.is_vip = "1";
+    obj.is_vip = "3";
     
     body = JSON.stringify(obj);
 }
